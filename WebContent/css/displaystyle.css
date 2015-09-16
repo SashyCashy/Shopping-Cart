@@ -1,0 +1,50 @@
+
+body{
+	background:#AAA0E2;
+	font-family:"Tempus Sans ITC",cursive;
+	font-size:12px;
+}
+#wrapper{
+	width:990px;
+	margin:0 auto;
+	
+}
+.username, .username input
+{
+	font-weight:bold;
+	font-size:small;
+	color:#555071;
+	text-align:left;
+	padding:10px;
+}
+.logout a
+	{
+	color:#302A54;
+	border-right: 1px solid #CCCCCC;
+    display: inline-block;
+    line-height:0px;
+    padding: 1px 10px;
+    text-decoration: none;
+    font-family:"Tempus Sans ITC",cursive;
+    font-weight:bold;
+    font-size:x-large;
+    float: right;
+	}
+.logout a:HOVER {
+	color:#C1BFCC;
+	text-decoration:underline;
+	font-family:"Tempus Sans ITC",cursive;
+}
+legend {
+	color:#C1BFCC;
+	font-family:"Tempus Sans ITC",cursive;
+	}
+.table{
+size: 50px;
+font-size: 23px;
+font-family:"Tempus Sans ITC",cursive;
+text-align: center;
+padding:40px 300px;
+}
+
+	

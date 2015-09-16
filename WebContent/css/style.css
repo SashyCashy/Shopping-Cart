@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#eee;
+	font-family:"Tempus Sans ITC",cursive;
+	font-size:15px;
+}
+#wrapper{
+	width:990px;
+	margin:0 auto;
+	font-family:"Tempus Sans ITC",cursive;
+}
+legend{
+	font-family:"Tempus Sans ITC",cursive;
+	}
+.topMenu{
+	background:#fff;
+	border:1px solid #ccc;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.topMenu a{
+	border-right: 1px solid #CCCCCC;
+    color: #FFCC00;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family:"Tempus Sans ITC",cursive;
+    font-weight:bold;
+    font-size: 15px;
+}
+.topMenu a:hover{
+	color:#0CF;
+	text-decoration:underline;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+form ul{
+	list-style-type:none;
+	font-family:"Tempus Sans ITC",cursive;
+}
+form ul li{
+	margin-bottom:15px;
+	font-weight: bold;
+}
+
+
+.registrationForm{
+	background:url(../images/registration.gif) no-repeat right 50px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.productListing{ margin:20px 0;}
+.prodDesc{
+	width:250px;
+	display:inline-block;
+	background:#fff;
+	border:1px solid #ccc;
+	padding:100px;
+	margin:10px;
+	text-align:center;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.prodDesc img{
+	width:300px;
+	height:300px;
+}
+
+.prodDesc input[type="text"]{
+	width:50px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+input.price{
+	border:none;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.prodPrice, .prodPrice input{
+	color:#39F;
+	font-weight:bold;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.prodQuantity, .prodQuantity input{
+	color:#9400D3;
+	font-weight: bold;
+	padding:2px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.username, .username input
+{
+	padding:5px;
+	font-weight:bold;
+	font-size: medium;
+	color:#4DB8DB;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.pass, .pass input
+{
+	padding:5px;
+	font-weight:bold;
+	font-size: medium;
+	color:#4DB8DB;
+	font-family:"Tempus Sans ITC",cursive;
+}

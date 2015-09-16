@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#993333;
+	font-family:"Tempus Sans ITC",cursive;
+	font-size:12px;
+}
+#wrapper{
+	width:990px;
+	margin:0 auto;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.topMenu{
+	background:#B87070;
+	border:1px solid #ccc;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.topMenu a{
+	border-right: 1px solid #CCCCCC;
+    color: red;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family:"Tempus Sans ITC",cursive;
+    font-weight:bold;
+    font-size: 15px;
+}
+.topMenu a:hover{
+	color:#FF8566;
+	text-decoration:underline;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+form ul{
+	list-style-type:none;
+	font-family:"Tempus Sans ITC",cursive;
+}
+form ul li{
+	margin-bottom:15px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.productListing{ margin:20px 0;}
+.prodDesc{
+	width:150px;
+	display:inline-block;
+	background:#fff;
+	border:1px solid #ccc;
+	padding:70px;
+	margin:5px;
+	text-align:center;
+	color:#4C0000;
+	font-family:"Tempus Sans ITC",cursive;
+	height: 200px
+}
+
+.prodDesc img{
+	width:150px;
+	height:150px;
+}
+
+.prodDesc input[type="text"]{
+	width:50px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+input.price{
+	border:none;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.prodPrice, .prodPrice input{
+	color:#39F;
+	font-weight:bold;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.prodQuantity, .prodQuantity input{
+	color:#9400D3;
+	font-weight: bold;
+	padding:2px;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.username
+	{
+	text-align:left;
+	text-shadow: red;
+	color:teal;
+	font-style: normal;
+  	font-weight: bold;
+  	font-family: "Tempus Sans ITC",cursive;
+  	font-size: 15px;
+  	font-style: bold;
+	}

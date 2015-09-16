@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#335C33;
+	font-family:"Tempus Sans ITC",cursive;
+	font-size:15px;
+}
+#wrapper{
+	width:700px;
+	margin:0 auto;
+	font-family:"Tempus Sans ITC",cursive;
+	padding:100px;
+	font-weight: bold;
+	color :#eee;
+}
+legend{
+	font-family:"Tempus Sans ITC",cursive;
+	}
+.topMenu{
+	background:#859D85;
+	border:1px solid #ccc;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+.topMenu a{
+	border-right: 1px solid #CCCCCC;
+    color: #334639;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family:"Tempus Sans ITC",cursive;
+    font-weight:bold;
+    font-size: 15px;
+}
+.topMenu a:hover{
+	color:#07180D;
+	text-decoration:underline;
+	font-family:"Tempus Sans ITC",cursive;
+}
+
+form ul{
+	list-style-type:none;
+	font-family:"Tempus Sans ITC",cursive;
+}
+form ul li{
+	margin-bottom:15px;
+	font-weight: bold;
+}
+form ul li input{
+font-family:"Tempus Sans ITC",cursive;
+font-size: medium;
+font-weight: bold;
+}
+
+.username, .username input
+{
+	padding:5px;
+	font-weight:bold;
+	font-size: medium;
+	color:#4DB8DB;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.pass, .pass input
+{
+	padding:5px;
+	font-weight:bold;
+	font-size: medium;
+	color:#4DB8DB;
+	font-family:"Tempus Sans ITC",cursive;
+}
+.login{
+width: 300px;}
